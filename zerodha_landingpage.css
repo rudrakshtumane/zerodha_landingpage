@@ -1,0 +1,272 @@
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 25px;
+    /* border-bottom: 1px solid rgb(195, 192, 192); */
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+    padding-left: 50px;  
+}
+.nav_cont {
+    margin-left: 450px;
+}
+a {
+    text-decoration: none;
+    padding-left: 40px;
+    color: gray;
+    font-size: large;
+}
+.top-img{
+    margin-top: 50px;
+            align-items: center;
+            margin-left: 350px;
+        }
+        .first{
+            line-height: 0.5;
+            color: rgb(79, 78, 78);
+            font-family: serif;
+            margin-top: 50px;
+        }
+        .first h1{
+            font-size: 50px;
+            font-weight: 500;
+            margin-left: 450px;
+        }
+        .first h2{
+            font-weight: lighter;
+            margin-left: 300px;
+            margin-top: 40px;
+            font-size: larger;
+        }
+        button{
+            color: white;
+            background-color: #387ed1;
+            height: 45px;
+            width: 200px;
+            font-size: larger;
+            border-radius: 4px;
+            border: none;
+        }
+        .buttons{
+            margin-left: 550px;
+            margin-top: 50px;
+        }
+        .buttons a{
+            text-decoration: none;
+            color: white;
+            /* margin-right: 20px; */
+            padding-right: 25%;
+        
+        }
+        button:hover{
+            background-color: black;
+        }
+        .main_container1 {
+            margin-top: 50px ;
+           display: flex;
+            color: #424242;
+        }
+        .left-img1 {
+            margin-left: 50px;
+            position: relative;
+           left: 0;
+        }
+        .right-cont1 {
+            width: 500px;
+            height: 360px;
+            margin-right: 100px;
+           position: absolute;
+            right: 0;
+        }
+        h2 {
+            font-size: 35px;
+            color: #424242;
+            letter-spacing: 2px;
+        }
+          .parent-row {
+            display: flex;
+        }
+        .row1 ul li {
+            font-size: larger;
+            line-height: 25px;
+        }
+        .row2 ul li {
+              font-size: larger;
+            line-height: 25px;
+        }
+        /* ________shriya css_______________________ */
+        .left_cont2{
+            color: rgb(70, 70, 70);
+            margin-left: 80px;
+            line-height: 1.5;
+            position: relative;
+        }
+        .left_cont2 h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .right_img2{
+            margin-right: 60px;
+            right: 0;
+            position: absolute;
+        }
+        .main_container2{
+            margin-top: 50px;
+            display: flex;
+        }
+        .arrows a{
+            text-decoration: none;
+            color: #387ed1;
+        }
+        .arrows{
+            margin-top: 650px;
+            margin-left: 250px;
+        }
+        .container01 a{
+            text-decoration: none;
+            color: #387ed1;
+            font-size: 20px;
+        }
+        .container01{
+            margin-left: 80px;
+            color: rgb(70, 70, 70);
+            line-height: 1.5;
+        }
+        .columns{
+            border: 1px solid gray;
+            width: 300px;
+            height: 180px;
+            color: rgb(70, 70, 70);
+            text-align: center;
+            
+        }
+        .row{
+            display: flex;
+            float: right;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+        .main{
+            display:flex;
+        }
+/* ___________________________________ */
+        .main_varsity{
+            display: flex;
+        }
+        .varsity1 img{
+            margin-left: 60px;
+        }
+        .varsity2 a{
+            text-decoration: none;
+            color: #387ed1;
+            font-size: 17px;
+        }
+        .varsity1{
+            margin-top: 70px;
+        }
+        .varsity2{
+            margin-left: 90px;
+            margin-top: 70px;
+            line-height: 1.5;
+        }
+        .end{
+            margin-top: 120px;
+            color: rgb(70, 70, 70);
+        }
+        .end h1{
+            font-size: 45px;
+            font-weight: 500;
+            margin-left: 390px;
+        }
+        .end p{
+            font-weight: lighter;
+            margin-left: 290px;
+        }
+
+/* ___________________________________________ */
+        .main-footer {
+            width: 100%;
+            margin-top: 100px;
+            display: flex;
+            color: rgb(79, 78, 78);
+        }
+        .first-box {
+            margin-top: 25px;
+            margin-left: 80px;
+            width: 25%;
+        }
+        .first-box p {
+            font-size: large;
+            /* line-height: 18px; */
+        }
+        .footer-buttons a {
+            padding-left: 5px;
+            align-items:start;
+            padding: 5px;
+        }
+
+        .second-box {
+            margin-left: 60px;
+            width: 25%;
+
+        }
+         .second-box ul  {
+            list-style-type: none;
+            padding: 0;
+            line-height: 1.5;
+         }
+          .second-box ul li {
+            font-size: 20px;
+          }
+         .third-box {
+            width: 25%;
+         }
+        .third-box ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 1.5;
+        }
+        .fourth-box {
+              width: 25%;
+        }
+        .fourth-box ul {
+             list-style-type: none;
+            padding: 0;
+            line-height: 1.5;
+            
+        }
+        .main-footer h3 {
+            font-size: 22px;
+        }
+        .last-part {
+            margin: 40px;
+        }
+        .last-part p{
+            font-size: 12px;
+            color: rgb(164, 162, 162);
+       }
+       .last-anchor-tags {
+        margin-left: 150px;
+       }
+       .last-anchor-tags a {
+        padding: 10px;
+        font-size: 14px;
+       }
+       a:hover {
+        color: #387ed1;
+       }
+
+       
+       
+
+
+
+
+
+
+      
